@@ -11,3 +11,90 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* New code */
+.text-center {
+  text-align: center;
+}
+.text-light{
+  color: #ffffff;
+}
+
+
+.overall_Item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 0;
+}
+
+
+.ov-item {
+  background: url(assets/images/shaadi-desktop-banner-v1.webp);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.left_Side img {
+  width: 79px;
+  height: auto;
+}
+
+.overall_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0;
+}
+
+.drop_menu {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+}
+.drp-items {
+  display: grid;
+}
+select#Select_item {
+  padding: 10px 33px;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+label#lab_Text {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+button#btn_sb {
+  padding: 10px 55px;
+  background-color: #1fcbde;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+}
+option {
+  font-size: 16px;
+}
+.txt_option {
+  position: relative;
+  top: 50%;
+}
+.rm_Menu.d-flex p {
+  padding: 0 26px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
