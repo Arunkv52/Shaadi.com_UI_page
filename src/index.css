@@ -12,16 +12,33 @@ code {
     monospace;
 }
 
+:root{
+  --bg-color:#D2b17c;
+}
 
 /* New code */
 .text-center {
   text-align: center;
 }
-.text-light{
+
+.text-light {
   color: #ffffff;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
+.w-50 {
+  width: 50%;
+}
+.w-70{
+  width: 70%;
+}
+.w-30{
+  width: 30%;
+}
 .overall_Item {
   display: flex;
   justify-content: space-around;
@@ -46,7 +63,7 @@ code {
 }
 
 .left_Side img {
-  width: 79px;
+  width: 110px;
   height: auto;
 }
 
@@ -63,9 +80,11 @@ code {
   align-items: end;
   gap: 10px;
 }
+
 .drp-items {
   display: grid;
 }
+
 select#Select_item {
   padding: 10px 33px;
   width: 100%;
@@ -73,11 +92,13 @@ select#Select_item {
   border-radius: 4px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+
 label#lab_Text {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
 }
+
 button#btn_sb {
   padding: 10px 55px;
   background-color: #1fcbde;
@@ -85,16 +106,88 @@ button#btn_sb {
   color: #ffffff;
   font-size: 16px;
 }
+
 option {
   font-size: 16px;
 }
+
 .txt_option {
   position: relative;
-  top: 50%;
+  top: 45%;
 }
+
 .rm_Menu.d-flex p {
   padding: 0 26px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
+}
+
+.drp-all {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 14px;
+  background-color: #3636366e;
+  padding: 30px 48px;
+}
+
+.text_str.text-center.text-light h2 {
+  font-size: 33px;
+  font-weight: 400;
+}
+
+
+/* Main body */
+.main-body-left h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #D2b17c;
+}
+
+.m-Id {
+  background-color: #201530;
+  border-radius: 13px;
+  padding: 10px;
+}
+
+#d-flex {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  gap: 27px;
+  padding: 27px;
+  width: 78%;
+}
+.main-body {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  padding: 5% 0 0 0;
+}
+.cl-list ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  color: #ffffff;
+  padding: 0;
+}
+.cl-list ul li {
+  list-style-type: none;
+  padding: 0;
+}
+.rbottom {
+  border-right: 2px solid #D2b17c;
+}
+.main-body-right img {
+  width: 334px;
+  height: auto;
+}
+.main-body-right button {
+  padding: 13px 41px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  margin: 9% 0 0 0;
 }
