@@ -9,14 +9,14 @@ function Mainbody() {
           <h2>Exclusive & Personalised Matchmaking by Shaadi.com</h2>
           <div className="cl-list">
             <ul>
-              <li>Top Rated Consultants</li>
-              <li>5 times higher success rates</li>
-              <li>100 % Privacy</li>
+                <li>Top Rated Consultants</li>
+                <li>5 times higher success rates</li>
+                <li>100 % Privacy</li>
             </ul>
           </div>
         </div>
         <div className="main-body-right text-light w-30">
-          <img src={Rightlogo} alt=""/>
+          <img src={Rightlogo} alt="" />
           <button>Get Invited</button>
         </div>
       </div>
